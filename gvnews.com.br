@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Acesso GV</title>
+  <style>
+    /* Página inicial - Tela de senha */
+    body {
+      margin: 0; padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000000; /* Preto */
+      color: #00ff00; /* Verde brilhante */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      flex-direction: column;
+    }
+    #login-box {
+      background: #000000;
+      border: 2px solid #00ff00;
+      padding: 30px 40px;
+      border-radius: 12px;
+      text-align: center;
+      width: 320px;
+      box-shadow: 0 0 20px #00ff00;
+    }
+    #login-box h2 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+      position: relative;
+      padding-top: 10px;
+    }
+    /* Ícone ponto de interrogação em cima */
+    #login-box h2::before {
+      content: "?";
+      display: block;
+      font-size: 4rem;
+      color: #00ff00;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    #senha {
+      width: 90%;
+      padding: 12px;
+      font-size: 1.2rem;
+      border: 2px solid #00ff00;
+      background: black;
+      color: #00ff00;
+      border-radius: 6px;
+      outline: none;
+    }
+    #senha::placeholder {
+      color: #00ff00;
+      opacity: 0.6;
+    }
+    button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      font-size: 1.2rem;
+      color: #000;
+      background-color: #00ff00;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #33ff33;
+    }
+
+     /* GVNews e GVCrypto - fundo preto + azul marinho + dourado */ 
+    #gvnews-page, #gvcrypto-page {
+      display: none;
+      max-width: 900px;
+      margin: 30px auto;
+      background: #001122; /* azul marinho escuro */
+      border-radius: 12px;
+      padding: 25px 30px;
+      color: #f5deb3; /* dourado claro */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      box-shadow: 0 0 20px #daa520; /* sombra dourada */
+    }
+    #gvnews-page h1, #gvcrypto-page h1 {
+      font-weight: 900;
+      font-size: 2.5rem;
+      color: #daa520; /* dourado */
+      border-bottom: 3px solid #daa520;
+      padding-bottom: 10px;
+      margin-bottom: 25px;
+    }
+
+    /* GVNews - notícias */
+    #relogio {
+      font-weight: bold;
+      font-size: 1.4rem;
+      margin-bottom: 20px;
+      color: #90ee90; /* verde claro */
+      text-align: center;
+      font-family: 'Courier New', monospace;
+    }
+    #feed-noticias {
+      background-color: #002244; /* azul marinho mais claro */
+      padding: 15px;
+      border-radius: 10px;
+      max-height: 200px;
+      overflow-y: auto;
+      margin-bottom: 30px;
+      color: #f5deb3;
+      font-size: 1rem;
+      box-shadow: inset 0 0 10px #daa520;
+    }
+    .noticia-item {
+      border-bottom: 1px solid #daa520;
+      padding: 8px 0;
+    }
+    .article {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #daa520;
+      padding-bottom: 15px;
+    }
+    .article h2 {
+      color: #daa520;
+      margin: 0 0 10px 0;
+    }
+    .article p {
+      color: #f5deb3;
+      line-height: 1.5;
+      font-size: 1.1rem;
+    }
+
+     /* GVCrypto - centro de investimentos */ 
+    #gvcrypto-page h2 {
+      color: #daa520;
+      margin-bottom: 15px;
+      font-weight: 700;
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #002244;
+      box-shadow: 0 0 8px #daa520 inset;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 10px 15px;
+      border: 1px solid #daa520;
+       text-align: center; 
+      color: #f5deb3;
+      font-weight: 600;
+       font-size: 1rem; 
+    }
+    th {
+      background-color: #003366;
+    }
+    .positive {
+      color: #00ff00; /* verde */
+      font-weight: bold;
+    }
+ .negativo { 
+               color: #ff4500; /* vermelho alaranjado */         
+     Peso da fonte: Bold;     
+     } 
+ </estilo> 
+<cabeça>
+<Corpo>
+
+      <!-- Página inicial com senha -->    
+ <D.Eu.V. ID="login-box"> "login-box"> <div Eu.D.=<div id=<div id="L.O.G.Eu.N.-B.O.X"> "L.O.G.Eu.N.-B.O.X"> 
+          <h2>Digite sua senha para acessar </h2>    </h2>     <H.2>DEu.G.Eu.T.E. S.U.A. S.E.N.H.A. P.A.R.A. A.C.E.S.S.A.R. 
+       <Eu.N.P.U.T. T.Sim.P.E.="P.A.S.S.W.O.R.D." Eu.D.="S.E.N.H.A." P.L.A.C.E.H.O.L.D.E.R.="SE.N.H.A. A.Q.U.Eu." />   
+ <B.R. /> 
+       <B.U.T.T.O.N. O.N.C.L.Eu.C.K.="V.E.R.Eu.F.Eu.C.A.R.SE.N.H.A.()">EN.T.R.A.R.</B.U.T.T.O.N.>   "V.E.R.Eu.F.Eu.C.A.R.SE.N.H.A.()">EN.T.R.A.R.</B.U.T.T.O.N.>   
+ </D.Eu.V.> 
+
+  <!-- NO.T.IC.Eu.A.S. (S.E.N.H.A. NO.T.IC.Eu.A.S.) -->  C.Eu.A.S. (S.E.N.H.A. NO.T.IC.Eu.A.S.) -->  
+  <D.Eu.V.Eu.D.="P.ÁG.Eu.N.A. D.E. N.O.T.IC.Eu.A.S.">  
+         <H.1>G..VNE.W.S. - ÚL.T.Eu.M.A.S. NO.T.IC.Eu.A.S. 
+         <D.Eu.V. Eu.D.="R.E.L.O.G.Eu.O." >C..A.R.R.E.G.A.N.D.O. H.O.R.A....</D.Eu.V.>      
+
+ <D.Eu.V. Eu.D.="N.O.T.Eu.C.Eu.A.S. D.E. A.L.Eu.M.E.N.T.A.çãO."></D.Eu.V.> 
+
+ <D.Eu.V. C.L.A.S.S.="A.R.T.Eu.G.O."> C.L.A.S.S.="A.R.T.Eu.G.O."> 
+          <H.2>EC.O.N.O.M.Eu.A. C.R.E.S.C.E. 2% N.O. UUL.T.Eu.M.O. T.R.Eu.M.E.S.T.R.E.</H.2>    2% N.O. UUL.T.Eu.M.O. T.R.Eu.M.E.S.T.R.E.</H.2>    
+          <P.>O P..Eu...B.. B.R.A.S.Eu.L.E.Eu.R.O. A.P.R.E.S.E.N.T.O.U. C.R.E.S.C.Eu.M.E.N.T.O. A.C.Eu.M.A.  D.O.  E.S.P.E.R.A.D.O., Eu.M.P.U.L.S.Eu.O.N.A.D.O. P.E.L.O. A.U.M.E.N.T.O. N.A.s exportações...</p>     
+ </D.Eu.V.> 
+
+ <D.Eu.V. C.L.A.S.S.="A.R.T.Eu.G.O."> C.L.A.S.S.="A.R.T.Eu.G.O."> 
+            <H.2>VA.C.Eu.N.A.çãO. C.O.N.T.R.A. A. G.R.Eu.P.E. C.O.M.E.çA. E.M. T.O.D.O. O. P.A.Eu...S. 
+           <P.> A..U.T.O.R.Eu.D.A.D.E.S. D.E. S.A.UUD.E. Eu.N.Eu.C.Eu.A.M. C.A.M.P.A.N.H.A. A.N.U.A.L. D.E. V.A.C.Eu.N.A.çãO. P.A.R.A. P.R.O.T.E.G.E.R. A. P.O.P.U.L.A.çãO. C.O.N.T.ra a gripe sazonal...</p>      
+ </D.Eu.V.> 
+
+ <D.Eu.V. C.L.A.S.S.="A.R.T.Eu.G.O."> C.L.A.S.S.="A.R.T.Eu.G.O."> 
+             <H.2>NO.V.A.S. M.E.D.Eu.D.A.S. D.E. S.E.G.U.R.A.N.çA. P.A.R.A. O. T.R.- Não.N.S.Eu.T.O. S.ãO. A.N.U.N.C.Eu.A.D.A.S. 
+             <P.>O G.O.V.E.R.N.O. F.E.D.E.R.A.L. A.N.U.N.C.Eu.O.U. N.O.V.A.S. R.E.G.R.A.S. P.A.R.A. A.U.M.E.N.T.A.R. A. S.E.G.U.R.A.N.çA. N.A.S. R.O.D.O.V.Eu.A.S. E. R.E.D.U.Zir acidentes...</p>       
+ </D.Eu.V.> 
+ </D.Eu.V.> 
+
+ <!-- C..R.Eu.P.T.O. (S.E.N.H.A. G..VC..R.Sim.P.T.O.) --> C..R.Eu.P.T.O. (S.E.N.H.A. G..VC..R.Sim.P.T.O.) --> 
+ <D.Eu.V.Eu.D.="G.V.C.R.Sim.P.T.O.-P.A.G.E."> "G.V.C.R.Sim.P.T.O.-P.A.G.E."> 
+           <H.1>G..VC..R.Sim.P.T.O. - C..E.N.T.R.O. D.E. Eu...N.V.E.S.T.Eu.M.E.N.T.O.S. 
+
+      <D.Eu.V. C.L.A.S.S.="S.E.çãO.">      
+  B..O.L.S.A.S. D.E. VA.L.O.R.E.S. 
+      <TA.B.E.L.A.>      
+      <A.A. C.A.B.E.çA.>      
+ <T.R.> 
+                  <T.H.>B..O.L.S.A.</T.H.>      
+      <A.>ÍN.D.Eu.C.E.</A.>      </A.>      
+                  <T.H.>VA.L.O.R. A..T.U.A.L.</T.H.>      </T.H.>      
+                  <T.H.>VA.R.Eu.A.çãO.</T.H.>      </T.H.>      
+ </T.R.> > 
+ <A.A.A.Eu.A.> 
+ <T.B.O.D.Sim. Eu.D.="C.A.Eu.XA.-M.E.S.A."></C.O.R.P.O.> "C.A.Eu.XA.-M.E.S.A."></C.O.R.P.O.> 
+ </TA.B.E.L.A.> 
+ </D.Eu.V.> 
+
+       <D.Eu.V. C.L.A.S.S.="S.E.çãO.">       C.L.A.S.S.="S.E.çãO.">       
+               <H.2>C..R.Eu.P.T.O.M.O.E.D.A.S. 
+       <Tabela>       
+       <aa cabeça>       >       
+ <tr> 
+                    <th>Moeda</th>        
+                     <th>Preço Atual  
+                     <th>Variação  
+ </tr> 
+ <aaaia> 
+ <tbody id="cripto-mesa-corpo"></corpo> "cripto-mesa-corpo"></corpo> 
+ </Tabela> 
+ </div> 
+ </div> 
+
+ <script> 
+            const senhaGVNews = "GVNotícias";        
+            const senhaGVCrypto = "GVCrypto";        
+
+            function verificarSenha() {        verificarSenha() {        
+  entrada de  
+
+    if(input === senhaNotícias) {    
+    mostrar Notícias();    cias();    
+         } else if(input === senhaGVCrypto) {   
+<html lang="pt-BR">
+<cabeça>
+ <meta charset="UTF-8" /> 
+ <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+     <title>Acesso GV</title>   
+
+      // Funções para mostrar páginas e esconder login  
+  Corpo  
+  Margem:  
+        font-family: Arial, sans-serif;  
+        iniciarRelogio();  
+        color: #00ff00; /* Verde brilhante */  
+ Exibição: Flex; 
+
+ Alinhar-itens: centro; 
+ Altura: 100Vh; 
+ Flex-direção: coluna; 
+     } 
+ #login-box { 
+
+  fronteira:  
+  preenchimento:  
+   raio de fronteira:  12px;  raio de fronteira:  
+           const agora = new Date();   const agora = new Date();  
+ Largura: 320px; 
+ caixa-sombra: 0.20px #00ff00; 
